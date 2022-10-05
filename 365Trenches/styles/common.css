@@ -1,0 +1,56 @@
+:root{
+    --theme-blue : #2390f6;
+    --theme-blue-dark : #125491;
+    --theme-purple: #7334df;
+    --gray-text: grey;
+    --title-text: #162C4F;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.list-no-style{
+    list-style: none;
+    display: flex;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+
+body{
+    padding: 10px 30px;
+    font-family: Poppins, sans-serif;
+    
+}
+.page-container{
+    max-width: 1000px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+
+.button {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--theme-blue) ;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: var(--theme-blue-dark) ;
+}
+
